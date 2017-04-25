@@ -1,4 +1,4 @@
-<?php include_once('templates/header.php'); ?>
+<?php include_once('app/templates/header.php'); ?>
 
 <div class="jumbotron">
 	<div class="container">
@@ -19,4 +19,4 @@
 
 		</div>
 
-		<?php include_once('templates/footer.php'); ?>
+		<?php include_once('app/templates/footer.php'); ?>
