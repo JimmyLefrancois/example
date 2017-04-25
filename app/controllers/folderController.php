@@ -21,22 +21,29 @@ if ($asRoot) {
 			}
 		}
 	}
-} else {
-
+} elseif (file_exists('min') || file_exists('max')) {
+	$currentPath = getCurrentPath();
+	$infos = file_get_contents('infos.json');
 }
 
 function getPath()
 {
-	$title = 'Jimmy Lefrancois Photography';
+	$title = 'Jimmy Lefrançois Photography';
 
 	if ($asRoot) $title = $title;
-	elseif (file_exists('min')) {
-		$album = getcwd();
-		$album = explode('/', $album);
-		$album = $album[count($album) -1];
+	elseif (file_exists('min') || file_exists('max')) {
+		$album = getCurrentPath();
 		$title = $title . ' - ' . ucfirst($album);
 	}
 
 	return $title;
 }
 
+function getCurrentPath()
+{
+	$current = getcwd();
+	$current = explode('/', $current);
+	$current = $current[count($current) -1];
+
+	return $current;
+}
