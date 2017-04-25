@@ -1,15 +1,7 @@
 <?php
 
-$dir = 'albums/';
-
-$domain = $_SERVER[HTTP_HOST];
-
-if ($domain = 'ca-dev.fr') $filePath = 'http://ca-dev.fr/PERSO/example/';
-$asRoot = file_exists('albums');
-
 // IF AT PROJECT ROOT
 if ($asRoot) {
-
 	foreach (new DirectoryIterator($dir) as $folder) {
 		if ($folder->isDir() && $folder->getFilename() != "." && $folder->getFilename() != "..") {
 			foreach (new DirectoryIterator($dir . $folder->getFilename()) as $file) {
@@ -26,7 +18,7 @@ if ($asRoot) {
 	$infos = file_get_contents('infos.json');
 }
 
-function getPath()
+function getTitle()
 {
 	$title = 'Jimmy Lefrançois Photography';
 
