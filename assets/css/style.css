@@ -29,3 +29,11 @@
 	display: block;
 	border-radius: 0px;
 }
+
+
+/* FOOTER */
+
+footer p {
+	text-align: center;
+	font-size: 15px !important;
+}
