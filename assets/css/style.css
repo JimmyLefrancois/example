@@ -1,0 +1,31 @@
+.jumbotron {
+	background-image: url('http://i.imgur.com/ttRmkk3.jpg');
+	background-size: cover;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.jumbotron h1 {
+	text-align: center;
+}
+
+.jumbotron .container {
+	/*background-color: rgba(20,20,20,0.8);*/
+	/*border-radius: 3px;*/
+	color: rgba(255,255,255, 0.9);
+}
+
+.items_container .item {
+	position: relative;
+}
+
+.items_container .item img {
+	width: 100%;
+}
+
+.items_container .item p > a {
+	margin: 0 auto;
+	display: block;
+	border-radius: 0px;
+}
