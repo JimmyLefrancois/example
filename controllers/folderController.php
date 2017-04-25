@@ -5,10 +5,7 @@ $dir = 'albums/';
 $domain = $_SERVER[HTTP_HOST];
 
 if ($domain = 'ca-dev.fr') $filePath = 'http://ca-dev.fr/PERSO/example/';
-
 $asRoot = file_exists('albums');
-
-$title = 'Jimmy Lefrancois Photography';
 
 // IF AT PROJECT ROOT
 if ($asRoot) {
@@ -25,6 +22,21 @@ if ($asRoot) {
 		}
 	}
 } else {
-	$title = $title .' - ' . getcwd();
+
+}
+
+function getPath()
+{
+	$title = 'Jimmy Lefrancois Photography';
+
+	if ($asRoot) $title = $title;
+	elseif (file_exists('min')) {
+		$album = getcwd();
+		$album = explode('/', $album);
+		$album = $album[count($album) -1];
+		$title = $title . ' - ' . ucfirst($album);
+	}
+
+	return $title;
 }
 

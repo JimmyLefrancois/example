@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title><?php echo $title; ?></title>
+	<title><?php echo getPath(); ?></title>
 	<link rel="stylesheet" href="<?php echo $filePath; ?>bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php echo $filePath; ?>assets/css/style.css">
 </head>
