@@ -17,9 +17,9 @@
 							<div class="container">
 								<!--  portfolio header -->
 								<div class="content-logo">
-									<img src="images/content-logo.png" alt="">
+									<img src="assets/images/content-logo.png" alt="">
 								</div>
-								<div class="separator separator-image"><img  src="images/separator2.png"   alt=""></div>
+								<div class="separator separator-image"><img  src="assets/images/separator2.png"   alt=""></div>
 								<h3 class="subtitle" style="color:#000;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </h3>
 								<!--  portfolio header end-->
 								<!-- Filters-->
@@ -33,7 +33,7 @@
 								</div>
 								<!-- filters end -->
 							</div>
-							<div class="gallery-items    grid-big-pad   vis-port-info">
+							<div class="gallery-items grid-big-pad vis-port-info">
 								<!-- 1 -->
 								<?php foreach ($folders as $index => $folder): ?>
 									<div class="gallery-item travel">
@@ -46,7 +46,7 @@
 											</div>
 											<div class="grid-item ">
 												<h3><a href="albums/<?php echo $index ?>" class="ajax portfolio-link"><?php echo ucfirst($index); ?></a></h3>
-												<span>Travel  /  Nature</span>
+												<span>Travel / Nature</span>
 											</div>
 										</div>
 									</div>

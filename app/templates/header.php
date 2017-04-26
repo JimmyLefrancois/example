@@ -32,7 +32,7 @@
 				<div class="header-inner">
 					<!-- Logo  -->
 					<div class="logo-holder">
-						<a href="index.html"><img src="images/logo.png" alt=""></a>
+						<a href="index.html"><img src="assets/images/logo.png" alt=""></a>
 					</div>
 					<!--Logo end  -->
 					<?php include_once('menu.html'); ?>
