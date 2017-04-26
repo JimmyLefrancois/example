@@ -1,9 +1,21 @@
+html {
+	background-color: white;
+}
+
+.container {
+	width: 95%;
+	background-color: #F9F9F9;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	/*background-image: url('http://i.imgur.com/ttRmkk3.jpg');
+	background-size: cover;*/
+}
+
 .jumbotron {
-	background-image: url('http://i.imgur.com/ttRmkk3.jpg');
-	background-size: cover;
 	height: 100%;
 	padding: 0;
 	margin: 0;
+	background-color: white;
 }
 
 .jumbotron h1 {
@@ -13,10 +25,14 @@
 .jumbotron .container {
 	/*background-color: rgba(20,20,20,0.8);*/
 	/*border-radius: 3px;*/
-	color: rgba(255,255,255, 0.9);
+	color: #000;
 }
 
 /* LIST ALBUMS */
+
+.link {
+	opacity: 0.9;
+}
 
 .items_container .item {
 	position: relative;
@@ -24,6 +40,10 @@
 
 .img_container {
 	overflow: hidden;
+}
+
+p.img_container {
+	margin-bottom: 0;
 }
 
 .overlay {
@@ -47,7 +67,7 @@
 	transition: all 200ms linear;
 }
 
-.items_container .item a:hover .overlay {
+.items_container .item a.grow:hover .overlay {
 	opacity:0.3;
 }
 
@@ -63,6 +83,11 @@
 	margin: 0 auto;
 	display: block;
 	border-radius: 0px;
+}
+
+.grow {
+	display: block;
+	position:relative;
 }
 
 .grow { transition: all 1s ease-in-out; }
