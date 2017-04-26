@@ -16,6 +16,8 @@
 	color: rgba(255,255,255, 0.9);
 }
 
+/* LIST ALBUMS */
+
 .items_container .item {
 	position: relative;
 }
@@ -28,6 +30,10 @@
 	margin: 0 auto;
 	display: block;
 	border-radius: 0px;
+}
+
+.btn-default {
+	opacity: 0.8;
 }
 
 
