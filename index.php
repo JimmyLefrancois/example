@@ -12,7 +12,13 @@
 			<?php foreach ($folders as $index => $folder): ?>
 				<div class="col-md-4 item">
 					<h2><?php echo ucfirst($index); ?></h2>
-					<img src="<?php echo $folder['pic'] ?>" alt="Album <?php echo $index; ?>">
+
+					<p class="img_container">
+						<a class="grow" href="albums/<?php echo $index ?>" role="button" title="Voir l'album <?php echo ucfirst($index) ?>">
+							<span class="overlay"></span>
+							<img src="<?php echo $folder['pic'] ?>" alt="Album <?php echo $index; ?>">
+						</a>
+					</p>
 					<p><a class="btn btn-default" href="albums/<?php echo $index ?>" role="button" title="Voir l'album <?php echo ucfirst($index) ?>">Voir l'album</a></p>
 				</div>
 			<?php endforeach ?>
