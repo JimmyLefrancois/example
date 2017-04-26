@@ -15,7 +15,9 @@ if ($asRoot) {
 	}
 } elseif (file_exists('min') || file_exists('max')) {
 	$currentPath = getCurrentPath();
-	$infos = file_get_contents('infos.json');
+	$imagesJSON = file_get_contents('images.json');
+	$images = json_decode($imagesJSON);
+	var_dump($images);
 }
 
 function getTitle()
