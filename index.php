@@ -4,7 +4,7 @@
 			<div id="wrapper">
 				<div class="content-holder elem scale-bg2 transition3">
 					<!-- title -->
-					<div class="fixed-title"><span>Portfolio</span></div>
+					<div class="fixed-title"><span>Accueil</span></div>
 					<!-- portfolio counter -->
 					<div class="count-folio">
 						<div class="num-album"></div>
@@ -20,7 +20,7 @@
 									<img src="assets/images/content-logo.png" alt="">
 								</div>
 								<div class="separator separator-image"><img  src="assets/images/separator2.png"   alt=""></div>
-								<h3 class="subtitle" style="color:#000;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </h3>
+								<h3 class="subtitle" style="color:#000;">Photos de natures & d'astronomie. </h3>
 								<!--  portfolio header end-->
 								<!-- Filters-->
 								<div class="filter-holder inline-filters">

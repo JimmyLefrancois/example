@@ -4,20 +4,17 @@
 			<!--=============== Footer ===============-->
 			<footer>
 				<div class="policy-box">
-					<span>&#169; Outdoor 2015 . All rights reserved. </span>
+					<span>Jimmy Lefrancois - Thème :  Outdoor <?php echo date('Y') ?> &#169; . All rights reserved. </span>
 					<ul>
-						<li><a href="#">yourmail@domain.com</a></li>
-						<li><a href="#">+7(111)123456789</a></li>
+						<li><a href="#">jimmylefrancois38@gmail.com</a></li>
+						<li><a href="#">+33658852468</a></li>
 					</ul>
 				</div>
 				<!-- footer social -->
 				<div class="footer-social">
 					<ul>
-						<li><a href="#" target="_blank" ><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" target="_blank" ><i class="fa fa-instagram"></i></a></li>
-						<li><a href="#" target="_blank" ><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="#" target="_blank" ><i class="fa fa-tumblr"></i></a></li>
+						<li><a href="www.facebook.com/jimmylefrancoisphotography" target="_blank" ><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.instagram.com/lefrancois_jimmy/" target="_blank" ><i class="fa fa-instagram"></i></a></li>
 					</ul>
 				</div>
 				<!-- footer social end -->
