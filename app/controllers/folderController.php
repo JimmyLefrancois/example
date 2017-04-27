@@ -8,7 +8,7 @@ if ($asRoot) {
 				if ($file->isFile() && $file->getFilename() != "." && $file->getFilename() != "..") {
 					$home = file_get_contents($dir . $folder->getFilename() . '/home.json');
 					$folders[$folder->getFilename()]['infos'] = json_decode($home);
-					$folders[$folder->getFilename()]['pic'] = $dir . $folder->getFilename() . '/' . $folder->getFilename() . '.jpg';
+					$folders[$folder->getFilename()]['pic'] = $dir . $folder->getFilename() . '/couv.jpg';
 				}
 			}
 		}
@@ -20,7 +20,7 @@ if ($asRoot) {
 	var_dump($images);
 }
 
-function getTitle()
+function getTitle($asRoot)
 {
 	$title = 'Jimmy Lefrançois Photography';
 
